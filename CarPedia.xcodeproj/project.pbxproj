@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61A2E342A9330890026CEE5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A2E332A9330890026CEE5 /* Tests_iOS.swift */; };
+		D61A2E3F2A9330890026CEE5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A2E3E2A9330890026CEE5 /* Tests_macOS.swift */; };
+		D61A2E412A9330890026CEE5 /* CarPediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A2E182A9330880026CEE5 /* CarPediaApp.swift */; };
+		D61A2E422A9330890026CEE5 /* CarPediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A2E182A9330880026CEE5 /* CarPediaApp.swift */; };
+		D61A2E432A9330890026CEE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A2E192A9330880026CEE5 /* ContentView.swift */; };
+		D61A2E442A9330890026CEE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A2E192A9330880026CEE5 /* ContentView.swift */; };
+		D61A2E452A9330890026CEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61A2E1A2A9330890026CEE5 /* Assets.xcassets */; };
+		D61A2E462A9330890026CEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61A2E1A2A9330890026CEE5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D61A2E302A9330890026CEE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61A2E132A9330880026CEE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61A2E1E2A9330890026CEE5;
+			remoteInfo = "CarPedia (iOS)";
+		};
+		D61A2E3B2A9330890026CEE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61A2E132A9330880026CEE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61A2E262A9330890026CEE5;
+			remoteInfo = "CarPedia (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D61A2E182A9330880026CEE5 /* CarPediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPediaApp.swift; sourceTree = "<group>"; };
+		D61A2E192A9330880026CEE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D61A2E1A2A9330890026CEE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D61A2E1F2A9330890026CEE5 /* CarPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61A2E222A9330890026CEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61A2E272A9330890026CEE5 /* CarPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61A2E292A9330890026CEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61A2E2A2A9330890026CEE5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D61A2E2F2A9330890026CEE5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61A2E332A9330890026CEE5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		D61A2E352A9330890026CEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61A2E3A2A9330890026CEE5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61A2E3E2A9330890026CEE5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		D61A2E402A9330890026CEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D61A2E1C2A9330890026CEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61A2E242A9330890026CEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61A2E2C2A9330890026CEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61A2E372A9330890026CEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D61A2E122A9330880026CEE5 = {
+			isa = PBXGroup;
+			children = (
+				D61A2E172A9330880026CEE5 /* Shared */,
+				D61A2E212A9330890026CEE5 /* iOS */,
+				D61A2E282A9330890026CEE5 /* macOS */,
+				D61A2E322A9330890026CEE5 /* Tests iOS */,
+				D61A2E3D2A9330890026CEE5 /* Tests macOS */,
+				D61A2E202A9330890026CEE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D61A2E172A9330880026CEE5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D61A2E182A9330880026CEE5 /* CarPediaApp.swift */,
+				D61A2E192A9330880026CEE5 /* ContentView.swift */,
+				D61A2E1A2A9330890026CEE5 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D61A2E202A9330890026CEE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61A2E1F2A9330890026CEE5 /* CarPedia.app */,
+				D61A2E272A9330890026CEE5 /* CarPedia.app */,
+				D61A2E2F2A9330890026CEE5 /* Tests iOS.xctest */,
+				D61A2E3A2A9330890026CEE5 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D61A2E212A9330890026CEE5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D61A2E222A9330890026CEE5 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D61A2E282A9330890026CEE5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D61A2E292A9330890026CEE5 /* Info.plist */,
+				D61A2E2A2A9330890026CEE5 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		D61A2E322A9330890026CEE5 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D61A2E332A9330890026CEE5 /* Tests_iOS.swift */,
+				D61A2E352A9330890026CEE5 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		D61A2E3D2A9330890026CEE5 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D61A2E3E2A9330890026CEE5 /* Tests_macOS.swift */,
+				D61A2E402A9330890026CEE5 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D61A2E1E2A9330890026CEE5 /* CarPedia (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61A2E492A9330890026CEE5 /* Build configuration list for PBXNativeTarget "CarPedia (iOS)" */;
+			buildPhases = (
+				D61A2E1B2A9330890026CEE5 /* Sources */,
+				D61A2E1C2A9330890026CEE5 /* Frameworks */,
+				D61A2E1D2A9330890026CEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CarPedia (iOS)";
+			productName = "CarPedia (iOS)";
+			productReference = D61A2E1F2A9330890026CEE5 /* CarPedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D61A2E262A9330890026CEE5 /* CarPedia (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61A2E4C2A9330890026CEE5 /* Build configuration list for PBXNativeTarget "CarPedia (macOS)" */;
+			buildPhases = (
+				D61A2E232A9330890026CEE5 /* Sources */,
+				D61A2E242A9330890026CEE5 /* Frameworks */,
+				D61A2E252A9330890026CEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CarPedia (macOS)";
+			productName = "CarPedia (macOS)";
+			productReference = D61A2E272A9330890026CEE5 /* CarPedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D61A2E2E2A9330890026CEE5 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61A2E4F2A9330890026CEE5 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				D61A2E2B2A9330890026CEE5 /* Sources */,
+				D61A2E2C2A9330890026CEE5 /* Frameworks */,
+				D61A2E2D2A9330890026CEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61A2E312A9330890026CEE5 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = D61A2E2F2A9330890026CEE5 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D61A2E392A9330890026CEE5 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61A2E522A9330890026CEE5 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				D61A2E362A9330890026CEE5 /* Sources */,
+				D61A2E372A9330890026CEE5 /* Frameworks */,
+				D61A2E382A9330890026CEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61A2E3C2A9330890026CEE5 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = D61A2E3A2A9330890026CEE5 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D61A2E132A9330880026CEE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D61A2E1E2A9330890026CEE5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D61A2E262A9330890026CEE5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D61A2E2E2A9330890026CEE5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D61A2E1E2A9330890026CEE5;
+					};
+					D61A2E392A9330890026CEE5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D61A2E262A9330890026CEE5;
+					};
+				};
+			};
+			buildConfigurationList = D61A2E162A9330880026CEE5 /* Build configuration list for PBXProject "CarPedia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D61A2E122A9330880026CEE5;
+			productRefGroup = D61A2E202A9330890026CEE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D61A2E1E2A9330890026CEE5 /* CarPedia (iOS) */,
+				D61A2E262A9330890026CEE5 /* CarPedia (macOS) */,
+				D61A2E2E2A9330890026CEE5 /* Tests iOS */,
+				D61A2E392A9330890026CEE5 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D61A2E1D2A9330890026CEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61A2E452A9330890026CEE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61A2E252A9330890026CEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61A2E462A9330890026CEE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61A2E2D2A9330890026CEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61A2E382A9330890026CEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D61A2E1B2A9330890026CEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61A2E432A9330890026CEE5 /* ContentView.swift in Sources */,
+				D61A2E412A9330890026CEE5 /* CarPediaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61A2E232A9330890026CEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61A2E442A9330890026CEE5 /* ContentView.swift in Sources */,
+				D61A2E422A9330890026CEE5 /* CarPediaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61A2E2B2A9330890026CEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61A2E342A9330890026CEE5 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61A2E362A9330890026CEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61A2E3F2A9330890026CEE5 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D61A2E312A9330890026CEE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61A2E1E2A9330890026CEE5 /* CarPedia (iOS) */;
+			targetProxy = D61A2E302A9330890026CEE5 /* PBXContainerItemProxy */;
+		};
+		D61A2E3C2A9330890026CEE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61A2E262A9330890026CEE5 /* CarPedia (macOS) */;
+			targetProxy = D61A2E3B2A9330890026CEE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D61A2E472A9330890026CEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D61A2E482A9330890026CEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D61A2E4A2A9330890026CEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF7G8V45W2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CarPedia.CarPedia;
+				PRODUCT_NAME = CarPedia;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D61A2E4B2A9330890026CEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF7G8V45W2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CarPedia.CarPedia;
+				PRODUCT_NAME = CarPedia;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D61A2E4D2A9330890026CEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PF7G8V45W2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarPedia.CarPedia;
+				PRODUCT_NAME = CarPedia;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D61A2E4E2A9330890026CEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PF7G8V45W2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarPedia.CarPedia;
+				PRODUCT_NAME = CarPedia;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D61A2E502A9330890026CEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF7G8V45W2;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CarPedia.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CarPedia (iOS)";
+			};
+			name = Debug;
+		};
+		D61A2E512A9330890026CEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF7G8V45W2;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CarPedia.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CarPedia (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D61A2E532A9330890026CEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PF7G8V45W2;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "CarPedia.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CarPedia (macOS)";
+			};
+			name = Debug;
+		};
+		D61A2E542A9330890026CEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PF7G8V45W2;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "CarPedia.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CarPedia (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D61A2E162A9330880026CEE5 /* Build configuration list for PBXProject "CarPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61A2E472A9330890026CEE5 /* Debug */,
+				D61A2E482A9330890026CEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61A2E492A9330890026CEE5 /* Build configuration list for PBXNativeTarget "CarPedia (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61A2E4A2A9330890026CEE5 /* Debug */,
+				D61A2E4B2A9330890026CEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61A2E4C2A9330890026CEE5 /* Build configuration list for PBXNativeTarget "CarPedia (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61A2E4D2A9330890026CEE5 /* Debug */,
+				D61A2E4E2A9330890026CEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61A2E4F2A9330890026CEE5 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61A2E502A9330890026CEE5 /* Debug */,
+				D61A2E512A9330890026CEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61A2E522A9330890026CEE5 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61A2E532A9330890026CEE5 /* Debug */,
+				D61A2E542A9330890026CEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D61A2E132A9330880026CEE5 /* Project object */;
+}
