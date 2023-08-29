@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel: CarListViewModel
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            if viewModel.isLoggedIn {
+                CarListView(viewModel: viewModel)
+            } else {
+                LoginView(viewModel: viewModel)
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(viewModel: CarListViewModel())
     }
 }
+
